@@ -1,4 +1,3 @@
-//this program will make and array will loop the array and print it out
 fun main(args: Array<String>)
 {
     //array of animals
@@ -7,8 +6,7 @@ fun main(args: Array<String>)
     //loop that will print out the array
     for( i in animals)
     {
-    //having trouble printing on new line 
-     print(i+'\n')
+     println(i)
     }
 
 }
